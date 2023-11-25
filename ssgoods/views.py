@@ -7,3 +7,6 @@ def index(request):
 
 def input_list(request):
     return render(request, 'input_list.html', {})
+
+def search(request):
+    return render(request, 'result_search.html', {})

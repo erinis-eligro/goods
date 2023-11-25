@@ -18,10 +18,7 @@
 
 <title>Adobe Day for Samsung</title>
 
-<script src="/resources/js/jquery-3.5.1.min.js"></script>
-<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<link rel="stylesheet" href="static/css/input_style.css">
+<link type="css" rel="stylesheet" href="{% static 'css/input_style.css' %}">
 <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -50,15 +47,21 @@
                         </p>
                     </div>
                 </div>
+
                 <div>
-                    <input type="text" required>
-                    <label>Name</label>
-                    <span></span>
-                </div>
-                <div>
-                    <input type="email" required>
-                    <label>E-mail</label>
-                    <span></span>
+                    <form action="search/" method="get">
+                        <div>
+                            <input type="text" required>
+                            <label>Name</label>
+                            <span></span>
+                        </div>
+                        <div>
+                            <input type="email" required>
+                            <label>E-mail</label>
+                            <span></span>
+                        </div>
+                        <input type="submit" value="조회">
+                    </form>
                 </div>
             </section>
         </main>

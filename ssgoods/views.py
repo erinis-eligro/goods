@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse("Hello Adobe Day!")
 
 def input_list(request):
-    return render(request, 'input_list.html', {})
+    return render(request, 'ssgoods/input_list.html', {})

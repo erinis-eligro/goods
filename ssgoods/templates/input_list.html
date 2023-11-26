@@ -19,6 +19,10 @@
 <title>Adobe Day for Samsung</title>
 
 <link type="css" rel="stylesheet" href="{% static 'css/input_style.css' %}">
+<link rel="stylesheet" href="{% static 'css/common.css' %}">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/form.css' %}">
+
 <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -40,27 +44,23 @@
                     </h1>
                     <h2>Adobe Day <br>for Samsung</h2>
                     <div class="date">
-                        <p class="date__tit">일정</p>
-                        <p class="date__con">
-                            <span>2023년 11월 28일 화요일 2:00 PM</span><br>
-                            <span class="date__desc">* Adobe Day는 오프라인으로 진행되는 세미나입니다.</span>
+                        <p class="article__desc">
+                            <span>사전신청 한 어도비 후드티 조회 페이지 입니다. 아래 본인의 신청 Email 을 정확히 입력해 주세요.</span><br>
                         </p>
                     </div>
                 </div>
+            </section>
 
-                <div>
-                    <form action="search/" method="get">
+            <section class="section section__regi formfield" id="register" style="display: none"></section>
+                <div class="inner">
+                    <form action="search/" method="post">
+                        {% csrf_token %}
                         <div>
-                            <input type="text" required>
-                            <label>Name</label>
-                            <span></span>
-                        </div>
-                        <div>
-                            <input type="email" required>
                             <label>E-mail</label>
+                            <input type="email" name="company_email" id="company_email" required>
                             <span></span>
                         </div>
-                        <input type="submit" value="조회">
+                        <input class="btn btn__submit" type="submit" value="조회">
                     </form>
                 </div>
             </section>

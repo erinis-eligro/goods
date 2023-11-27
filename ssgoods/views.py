@@ -34,7 +34,7 @@ def search(request):
 
         print("Email "+email)
 
-        fp = os.path.join("goods_adobeday_adobe/static/list.xlsx")
+        fp = os.path.join("static/list.xlsx")
         df = pd.read_excel(fp)
 
         col_size = df['후드티 사이즈']

@@ -1,8 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="keywords" content="Adobe Day for Samsung">
+        <meta name="description" content="#내가 몰랐던 Adobe 활용법 #어도비 꿀팁 #실전노하우">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://adobeday.co.kr/samsung">
+        <meta property="og:site_name" content="Adobe Day for Samsung">
+        <meta property="og:title" content="Adobe Day for Samsung">
+        <meta property="og:description" content="#내가 몰랐던 Adobe 활용법 #어도비 꿀팁 #실전노하우">
+        <meta property="og:image" content="https://adobeday.co.kr/samsung/resources/images/meta_img.png">
+
+        <title>Adobe Day for Samsung</title>
+
+        <!-- <link type="css" rel="stylesheet" href="{% static 'css/input_style.css' %}"> -->
+        <link rel="stylesheet" href="{% static 'css/common.css' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/form.css' %}">
+
+        <link rel="shortcut icon" href="">
+    </head>
+
     <body>
-        <h1>이미 수령 했습니다!</h1>
-        <div>
-            <input type="button" value="뒤로가기" onclick="back()">
+        <div id="main">
+            <main class="main">
+                <section class="section__visual">
+                    <div class="inner">
+                        <h1>
+                            <a href="https://www.adobe.com/kr/creativecloud.html?sdid=3SH1B4QM&mv=search&mv2=CC|Naver|BrandSearch&s_kwcid=AL!3085!87!1fea7c7d6ecce7f385a25bb9672ecf62&ef_id=Y_HeTQADuy10RAAj:20230509044631:s" target="_blank">
+                                <span class="blind">로고</span>
+                            </a>
+                        </h1>
+                        <h2>Adobe Day <br>for Samsung</h2>
+                        <div class="date">
+                            <p class="article__desc">
+                                <span>이미 어도비 후드티를 수령한 신청자 입니다.</span><br>
+                                <span>다시 확인해서 검색해 주세요.</span><br>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="section section__regi formfield" id="register" style="display: none"></section>
+                    <div class="inner">
+                        <input class="btn btn__submit" type="button" value="뒤로가기" onclick="back()">
+                    </div>
+                </section>
+            </main>
         </div>
     </body>
     <script>

@@ -120,10 +120,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 # STATIC_URL = 'static/'
-# STATICFILES_DIRS = [BASE_DIR / "static",]
+
 
 STATIC_URL = os.environ.get("DJANGO_STATIC_URL", "static/")
-STATIC_ROOT = os.environ.get("DJANGO_STATIC_ROOT", "./static/")    
+STATIC_ROOT = os.environ.get("DJANGO_STATIC_ROOT", "./static/")   
+
+STATICFILES_DIRS = [BASE_DIR / "static",]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

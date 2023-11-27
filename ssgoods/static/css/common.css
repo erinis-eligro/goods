@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* @import url('https://fonts.cdnfonts.com/css/adobe-clean'); */
+
+/* @font-face{font-family:adobe clean;font-style:normal;font-weight:400;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanRegular.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:400;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSemiCn.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:400;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanIt.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:400;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSemiCnIt.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:300;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanLight.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:300;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanLightIt.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:350;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSemiLight.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:700;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanBold.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:700;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanBoldSemiCn.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:700;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanBoldIt.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:700;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanBoldSemiCnIt.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:800;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanExtraBold.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:800;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanExtraBoldIt.woff) format('woff')}@font-face{font-family:adobe clean;font-style:normal;font-weight:900;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanBlack.woff) format('woff')}@font-face{font-family:adobe clean;font-style:italic;font-weight:900;src:local('Adobe Clean'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanBlackIt.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:normal;font-weight:400;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifRegular.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:normal;font-weight:400;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXRegular.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:italic;font-weight:400;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifIt.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:italic;font-weight:400;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXIt.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:normal;font-weight:300;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXLight.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:italic;font-weight:300;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXLightIt.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:normal;font-weight:350;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXSemiLight.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:italic;font-weight:350;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXSemiLightIt.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:normal;font-weight:500;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifMedium.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:normal;font-weight:500;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXMedium.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:italic;font-weight:500;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifMediumIt.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:italic;font-weight:500;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXMediumIt.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:normal;font-weight:700;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifBold.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:normal;font-weight:700;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXBold.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:italic;font-weight:700;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifBoldIt.woff) format('woff')}@font-face{font-family:adobe clean ux;font-style:italic;font-weight:700;src:local('Adobe Clean UX'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanUXBoldIt.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:normal;font-weight:900;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifBlack.woff) format('woff')}@font-face{font-family:'adobe clean serif';font-style:italic;font-weight:900;src:local('Adobe Clean Serif'),url(https://fonts.cdnfonts.com/s/50943/AdobeCleanSerifBlackIt.woff) format('woff')} */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    letter-spacing: 0;
+    font: inherit;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+  }
+  ul, li {
+      list-style: none;
+  }
+  body {
+    width: 100%;
+    line-height: 1.4;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  html {
+    font-family: "Adobe Clean","Noto Sans KR", sans-serif;
+  }
+  
+  img {
+    vertical-align: middle;
+    border: 0;
+  }
+  
+  a {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  button, input, select {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  select {
+    display: block;
+    width: 100%;
+    height: 46px;
+    padding: 0 15px;
+    appearance: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    cursor: pointer
+  }
+  
+  input[type=text], input[type=password], input[type=tel], input[type=url], input[type=email], input[type=number] {
+    display: block;
+    width: 100%;
+    height: 46px;
+    padding: 0 15px;
+    appearance: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+::selection {
+    background-color: #000000;
+    color: #fff;
+}
+::-moz-selection {
+    background-color: #000000;
+    color: #fff;
+}

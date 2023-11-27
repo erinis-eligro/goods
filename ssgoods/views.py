@@ -20,21 +20,18 @@ def input_list(request):
 
     return render(request, 'input_list.html', {})
 
-@csrf_exempt
 def duplication(request):
     return render(request, 'duplication.html')
 
-@csrf_exempt
 def none_user(request):
     return render(request, 'none_user.html')
 
-@csrf_exempt
 def search(request):
-    if request.method == 'GET':
+    if request.method == 'POST':
         print('here!!! '+request.method)
         return render(request, 'result_search.html')
     
-    elif request.method == 'POST':
+    elif request.method == 'GET':
         
         checkeds = CheckedUser.objects.filter(email=request.POST['company_email'])
         if checkeds.exists():

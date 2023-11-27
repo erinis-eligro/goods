@@ -11,6 +11,12 @@ def index(request):
     return HttpResponse("Hello Adobe Day!")
 
 def input_list(request):
+
+    #Text Code
+    # testUsers = CheckedUser.objects.all()
+    # for user in testUsers:
+    #     print("Email "+ user.email)
+
     return render(request, 'input_list.html', {})
 
 def duplication(request):
@@ -80,6 +86,7 @@ def confirm(request):
     # print(return_context['Size'])
 
     checked = CheckedUser(
+        username = context['Name'],
         email = context['Email']
     )
     checked.save()

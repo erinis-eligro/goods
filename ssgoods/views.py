@@ -23,15 +23,17 @@ def input_list(request):
 def duplication(request):
     return render(request, 'duplication.html')
 
+
 def none_user(request):
     return render(request, 'none_user.html')
 
+@csrf_exempt
 def search(request):
-    if request.method == 'POST':
+    if request.method == 'GET':
         print('here!!! '+request.method)
         return render(request, 'result_search.html')
     
-    elif request.method == 'GET':
+    elif request.method == 'POST':
         
         checkeds = CheckedUser.objects.filter(email=request.POST['company_email'])
         if checkeds.exists():
@@ -41,7 +43,7 @@ def search(request):
 
         print("Email "+email)
 
-        fp = os.path.join("static/list.xlsx")
+        fp = os.path.join("static/ssgoods/list.xlsx")
         df = pd.read_excel(fp)
 
         col_size = df['후드티 사이즈']
@@ -77,6 +79,8 @@ def search(request):
     # return render(request, 'result_search.html', context)
     # return render(request, 'result_search.html', {'form':form})
 
+
+@csrf_exempt
 def confirm(request):
     print(settings.GLOBAL_CONTEXT)
     context = settings.GLOBAL_CONTEXT

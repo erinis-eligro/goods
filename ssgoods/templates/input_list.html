@@ -52,7 +52,8 @@
 
             <section class="section section__regi formfield" id="register" style="display: none"></section>
                 <div class="inner">
-                    <form action="search/" method="get">
+                    <form action="search/" method="post">
+                        {% csrf_token %}
                         <div>
                             <label>E-mail</label>
                             <input type="email" name="company_email" id="company_email" required>

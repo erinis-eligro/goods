@@ -5,6 +5,7 @@ import pandas as pd
 import os
 from goods_adobeday_adobe import settings
 from .models import CheckedUser
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 def index(request):
@@ -19,12 +20,15 @@ def input_list(request):
 
     return render(request, 'input_list.html', {})
 
+@csrf_exempt
 def duplication(request):
     return render(request, 'duplication.html')
 
+@csrf_exempt
 def none_user(request):
     return render(request, 'none_user.html')
 
+@csrf_exempt
 def search(request):
     if request.method == 'GET':
         print('here!!! '+request.method)

@@ -80,7 +80,6 @@ def confirm(request):
     # print(return_context['Size'])
 
     checked = CheckedUser(
-        username = context['Name'],
         email = context['Email']
     )
     checked.save()

@@ -1,0 +1,1 @@
+Check for marketing goods
